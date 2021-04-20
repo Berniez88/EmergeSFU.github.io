@@ -1,0 +1,77 @@
+/* Home page CSS */
+.navbar {
+  background-color: #d8e3e7;
+  color: #132c33;
+}
+html {
+  background-color: #51c4d3;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #132c33;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  /* width: 100px; */
+  height: 800px;
+}
+
+/* About PAGE */
+
+* {
+  box-sizing: border-box;
+}
+/* about me summary box */
+p.content {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #a9d1da;
+  border: 5px solid #126e82;
+  border-radius: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Experience boxes */
+#c1 {
+  background-color: #a9d1da;
+}
+#c2 {
+}
+#c3 {
+  background-color: #a9d1da;
+}
+
+/* PROJECTS CSS */
+
+.pterp {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 50%;
+  margin: auto;
+}
+.pcontent {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  text-align: center;
+  padding: 5%;
+  margin: auto;
+}
